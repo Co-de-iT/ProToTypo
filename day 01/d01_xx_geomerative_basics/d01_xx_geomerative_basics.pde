@@ -44,18 +44,20 @@ void draw()
   stroke(0);
   strokeWeight(1);
   pushMatrix();
-  translate(width/2, step);
-
+  translate(width/2, step); // translates coordinate system
+  // draws a text using the RFont
   font.draw("Hello");
   translate(0, step);
   fill(0);
   noStroke();
+  // draws the shape extracted from the font (curves)
   shape.draw();
 
   translate(0, step);
   stroke(0);
   strokeWeight(2);
   noFill();
+  // draws the points extracted from the shape
   beginShape(POINTS);
   for (int i=0; i<tPoints.length; i++) {
     for (int j=0; j<tPoints[i].length; j++) {
@@ -68,7 +70,7 @@ void draw()
   stroke(0);
   strokeWeight(2);
   noFill();
-
+  // draws shapes from extracted points
   for (int i=0; i<tPoints.length; i++) {
     beginShape();
     for (int j=0; j<tPoints[i].length; j++) {

@@ -3,6 +3,8 @@
  * This sketch uses the text drawn to an offscreen PGraphics to determine
  * what color and shape it will draw to each xy-coordinate on the main screen
  *
+ * largely based on the examples provided by AmnonP5
+ *
  * USAGE:
  * - move the mouse around to change the grid dimensions
  * - click the mouse to flip the drawing method used for respectively inside and outside the text  
