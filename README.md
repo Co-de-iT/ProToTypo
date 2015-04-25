@@ -37,7 +37,7 @@ ______________________________
 
 ###. extra
 
-***. Prototypo_cover***
+***Prototypo_cover***
 
  cover design with Geomerative library
  
@@ -49,13 +49,18 @@ ______________________________
  . adds random points throughout the page
  . creates connections (3 orders of varying thickness according to distance range)
 
+Notes
+
+. pdf export is done "old school" and not through a PGraphics
+
 ______________________________
 ##.:. KNOWN BUGS
 
-none so far (write the one you find here)
+none so far
 
 
 ____________________________________________________________________________________________________________________________________
-##.:. IMPLEMENTATIONS
+##.:. FUTURE IMPLEMENTATIONS
 
-. to be implemented here
+. some comments are in Italian only, English translation will be implemented over time
+. some more examples will be added in the "extra" section
