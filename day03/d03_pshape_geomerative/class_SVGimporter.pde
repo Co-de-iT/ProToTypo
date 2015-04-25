@@ -2,6 +2,8 @@
 
  class SVGImporter
  
+ by Alessio Erioli - Co-de-iT - www.co-de-it.com
+ 
  I wrote this class to make your life easier in dealing with SVG files through the geomerative
  library. Once you get more expert in using Processing (which I hope will happen soon) you can
  check how to use geomerative directly without this importer and maybe write your own classes.

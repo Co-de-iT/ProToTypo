@@ -1,4 +1,12 @@
+/*
 
+P5 ws RUFA
+
+tutor: Alessio Erioli - Co-de-iT
+
+first sketch - several introductory stuff, the current version draws with mouse
+
+*/
 
 // commento monolinea
 
@@ -63,4 +71,3 @@ void keyPressed(){ // se premo un tasto....
      println("hai premuto " + key );
    }
 }
-

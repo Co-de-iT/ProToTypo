@@ -4,7 +4,7 @@
  
  tutor: Alessio Erioli - Co-de-iT
  
- pointilisme effect on image based on image sampling
+ pointilisme effect based on image sampling
  
  key map:
  
@@ -74,4 +74,3 @@ void pointil() {
 void keyPressed() {
   if (key == ' ') circle = ! circle;
 }
-

@@ -1,10 +1,10 @@
 /*
 
- P5 ws RUFA - trigonometry 2
+ P5 ws RUFA
  
  tutor: Alessio Erioli - Co-de-iT
  
- some trigonometry basics
+ some trigonometry basics for animation
  
  */
 

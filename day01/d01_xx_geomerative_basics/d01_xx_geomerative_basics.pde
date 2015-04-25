@@ -1,7 +1,10 @@
 /*
-   geomerative basics
+
+ P5 ws RUFA
  
- extract text as shape, extract points from shape
+ tutor: Alessio Erioli - Co-de-iT
+ 
+ geomerative library basics - extract text as shape, extract points from shape
  
  */
 
@@ -14,19 +17,20 @@ RPoint[][] tPoints;
 PImage logo;
 
 float step;
+String text = "GATTACA";
 
 void setup()
 {
   size(600, 800);
   smooth();
-  
+
   logo = loadImage("RUFA_logo_80.png");
-  
+
   // VERY IMPORTANT: Allways initialize the library in the setup
   RG.init(this); // init Geomerative library
 
   font = new RFont( "OpenSans-Light.ttf", 80, RFont.CENTER);
-  shape = font.toShape("Hello");
+  shape = font.toShape(text);
 
   // set Segmentator (read: point retrieval) settings
   RCommand.setSegmentator(RCommand.UNIFORMLENGTH); // use a uniform distance between points
@@ -46,7 +50,7 @@ void draw()
   pushMatrix();
   translate(width/2, step); // translates coordinate system
   // draws a text using the RFont
-  font.draw("Hello");
+  font.draw(text);
   translate(0, step);
   fill(0);
   noStroke();

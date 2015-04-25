@@ -6,6 +6,9 @@
  
  DLA (Diffusion Limited Aggregation) process on logo
  
+ NOTE: the DLA agorithm is rough, sketchy and for sure can be implemented much better,
+ but for the time being it works the way I want
+ 
  key map:
  
  space bar  starts/stops the process

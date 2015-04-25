@@ -1,6 +1,6 @@
 /*
 
- P5 ws RUFA - trigonometry
+ P5 ws RUFA
  
  tutor: Alessio Erioli - Co-de-iT
  
@@ -39,4 +39,3 @@ void draw() {
   fill(0, 30);
   rect(0, 0, width, height);
 }
-

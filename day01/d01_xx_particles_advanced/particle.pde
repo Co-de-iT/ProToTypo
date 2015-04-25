@@ -94,7 +94,7 @@ class Particle {
       bri = map(pixBri[i], 0, 255, 50, 255);
       fill(bri, 30);
       stroke(bri, 30);
-      amp = map(pixBri[i], 0, 255, 0.2, 0.2);
+      amp = map(pixBri[i], 0, 255, 0.1, 0.3); // particle thickness
     } 
     else {
       fill(0, 50);

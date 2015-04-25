@@ -1,8 +1,10 @@
 /*
 
- P5 ws RUFA - (not so) basic trigonometry
+ P5 ws RUFA
  
  tutor: Alessio Erioli - Co-de-iT
+ 
+ Playing with (not so) basic trigonometry
  
  trigonometry isn't so difficult after all!
  
@@ -98,4 +100,3 @@ void mousePressed() {
   mode = (mode+1)%3;
   if (mode==1) background(0); // cleans background before going in mode 1
 }
-

@@ -2,6 +2,8 @@
 
  class SVGImporter
  
+ by Alessio Erioli - Co-de-iT - www.co-de-it.com
+ 
  I wrote this class to make your life easier in dealing with SVG files through the geomerative
  library. Once you get more expert in using Processing (which I hope will happen soon) you can
  check how to use geomerative directly without this importer and maybe write your own classes.
@@ -33,7 +35,8 @@ class SVGImporter {
   PApplet p5;
   String fileName;
   RShape rShape;
-  RFont font;  
+  RFont font;
+  boolean ignStyle = true;  
 
   SVGImporter(PApplet p5, String fileName) {
     this.fileName = fileName;
@@ -74,6 +77,7 @@ class SVGImporter {
         p.addChild(pC);
       }
     }
+    p.disableStyle();
     return p;
   }
 
@@ -99,7 +103,7 @@ class SVGImporter {
   }
 
   Vec2D[][] getPtsUniformStep(float step) {
-    //Vec2D[][] pts;
+    // Vec2D[][] pts;
     RPoint[][] points;
     if ( step<0 || step > 1) {
       return null;
@@ -112,7 +116,7 @@ class SVGImporter {
   }
 
   Vec2D[][] getPtsUniformLength(float len) {
-    //Vec2D[][] pts;
+    // Vec2D[][] pts;
     RPoint[][] points;
     RG.setPolygonizer(RG.UNIFORMLENGTH);
     RG.setPolygonizerLength(len); // sampling step is the segment length (in pixels)
@@ -128,7 +132,7 @@ class SVGImporter {
   }
 
   Vec2D[][] getTansUniformStep(float step) {
-    //Vec2D[][] pts;
+    // Vec2D[][] pts;
     RPoint[][] points;
     if ( step<0 || step > 1) {
       return null;
@@ -141,7 +145,7 @@ class SVGImporter {
   }
 
   Vec2D[][] getTansUniformLength(float len) {
-    //Vec2D[][] pts;
+    // Vec2D[][] pts;
     RPoint[][] points;
     RG.setPolygonizer(RG.UNIFORMLENGTH);
     RG.setPolygonizerLength(len); // sampling step is the segment length (in pixels)

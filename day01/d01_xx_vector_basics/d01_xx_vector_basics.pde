@@ -7,6 +7,10 @@
  
  basic vector operations
  
+ key map
+ 
+ c  show construction lines
+ 
  */
 
 import toxi.geom.*;

@@ -20,8 +20,7 @@
 import processing.pdf.*;        // library for PDF export
 import geomerative.*;           // library for text manipulation and point extraction
 
-float nextPointSpeed = 0.65;    // speed at which the sketch cycles through the points
-boolean saveOneFrame = false;   // variable used to save a single frame as a PDF page
+
 RShape shape, shape1;                   // holds the base shape created from the text
 RPoint[][] allPaths, allPaths1;            // holds the extracted points
 RPoint[] rPts;
@@ -29,12 +28,14 @@ ArrayList <RPoint> rPt = new ArrayList<RPoint>();
 ArrayList <Stick> lines = new ArrayList <Stick>();
 PImage logo;
 
-float lThres = 0.6;
-float nRandPts = 400;
+float lThres = 0.6;     // line threshold
+float nRandPts = 400;   // number of random points
+
+boolean saveOneFrame = false;   // set this to true to save a single frame as a PDF page
 
 void setup() {
-  //size(1280, 720);
-  size(780, 1040);
+  //size(1280, 720); // landscape mode
+  size(780, 1040);   // portrait mode
   smooth();
 
   // loads RUFA logo

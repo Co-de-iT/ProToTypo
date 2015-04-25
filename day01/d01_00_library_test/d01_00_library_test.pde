@@ -1,12 +1,14 @@
 /*
 
-P5 ws RUFA - library test
+P5 ws RUFA
 
 tutor: Alessio Erioli - Co-de-iT
 
+library test
+
 preliminary sketch to test correct installation of all libraries
 if a grey window of about 100x100 pixels appear and nothing else happens,
-everyhing is ok
+everything is ok
 
 */
 
@@ -60,5 +62,3 @@ import toxi.color.theory.*;
 import toxi.music.*;
 import toxi.music.scale.*;
 import toxi.audio.*;
-
-

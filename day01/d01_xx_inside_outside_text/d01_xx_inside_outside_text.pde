@@ -1,13 +1,18 @@
-
 /*
- * This sketch uses the text drawn to an offscreen PGraphics to determine
- * what color and shape it will draw to each xy-coordinate on the main screen
- *
- * largely based on the examples provided by AmnonP5
- *
- * USAGE:
- * - move the mouse around to change the grid dimensions
- * - click the mouse to flip the drawing method used for respectively inside and outside the text  
+
+ P5 ws RUFA
+ 
+ tutor: Alessio Erioli - Co-de-iT
+ 
+ uses the text drawn to an offscreen PGraphics to determine what color and shape it will draw to each xy-coordinate on the main screen
+ 
+ slight modification of the example provided by AmnonP5 - http://www.creativeapplications.net/processing/generative-typography-processing-tutorial/
+ 
+ key map
+ 
+ move the mouse around to change the grid dimensions
+ click the mouse to flip the drawing method used for respectively inside and outside the text  
+ 
  */
 
 // SKETCH SETTINGS
@@ -23,7 +28,7 @@ void setup() {
   size(1280, 720);
   smooth(8);
 
-  // create and draw to PPraphics (see Getting Started > UsingPGraphics example)
+  // create and draw to PGraphics (see Getting Started > UsingPGraphics example)
   pg = createGraphics(width, height, JAVA2D);
   pg.beginDraw();
   pg.textSize(500);
@@ -39,7 +44,6 @@ void draw() {
   int gridVertical = (int) map(mouseY, 0, height, 15, 100); // number of vertical grid cells (based on mouseY)
   float w = float(width) / gridHorizontal;
   float h = float(height) / gridVertical;
-  float r = min(w, h);
 
   // draw shapes to the screen
   background(255);
@@ -68,4 +72,3 @@ void draw() {
 void mousePressed() {
   reverseDrawing = !reverseDrawing; // toggle boolean for drawing method
 }
-

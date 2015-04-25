@@ -5,7 +5,7 @@
  
  tutor: Alessio Erioli - Co-de-iT
  
- class definition: fields, constructor, methods
+ the bug strikes back: class definition: fields, constructor, methods
  
  */
 
@@ -67,4 +67,3 @@ float average(float a, float b) {
   //float c = (a+b)/2;
   return ((a+b)/2);
 }
-

@@ -4,7 +4,7 @@ P5 ws RUFA
 
 tutor: Alessio Erioli - Co-de-iT
 
-e01 - object basics
+object and classes basics
 
 click on tab AA_intro for a quick introduction
 

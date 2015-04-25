@@ -4,7 +4,7 @@
  
  tutor: Alessio Erioli - Co-de-iT
  
- e01 - object basics + behaviors
+object basics + behaviors
  
  click on tab AA_intro for a quick introduction
  
@@ -69,4 +69,3 @@ void draw() {
   }
   image(logo, width-100, height-100);
 }
-

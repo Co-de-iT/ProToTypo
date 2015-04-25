@@ -1,8 +1,10 @@
 /*
 
-P5 ws RUFA - class_aclass
+P5 ws RUFA
 
 tutor: Alessio Erioli - Co-de-iT
+
+classes and objects
 
 let's define a class and a few methods (behaviors)
 
@@ -38,4 +40,3 @@ void draw() {
   a.display();
    image(logo, width-100, height-100);
 }
-
