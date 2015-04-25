@@ -37,7 +37,7 @@ ______________________________
 
 ###. extra
 
-*. Prototypo_cover*
+***. Prototypo_cover***
 
  cover design with Geomerative library
  
