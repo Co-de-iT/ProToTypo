@@ -28,6 +28,28 @@ preliminary sketch to test correct installation of all libraries. If a grey wind
 ***d01_01_class_begin***
 
 first sketch - several introductory stuff, the current version draws with mouse
+
+
+***d01_02_class_aclass***
+
+classes and objects - let's define a class and a few methods (behaviors)
+
+
+***d01_03_jitterbug***
+
+Jitterbug - simple class example with cascade constructors and save as png with transparent bg
+
+
+***d01_xx_easing***
+
+motion easing - mouse wheel controls threshold value
+
+
+***d01_xx_geomerative_basics***
+
+geomerative library basics - extract text as shape, extract points from shape
+
+
 ______________________________
 
 ###. day 02
