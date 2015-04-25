@@ -20,7 +20,14 @@ ______________________________
 ###. day 01
 
 
+***d01_00_library_test***
 
+preliminary sketch to test correct installation of all libraries. If a grey window of about 100x100 pixels appear and nothing else happens, everything is ok
+
+
+***d01_01_class_begin***
+
+first sketch - several introductory stuff, the current version draws with mouse
 ______________________________
 
 ###. day 02
