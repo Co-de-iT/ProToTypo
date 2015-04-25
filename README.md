@@ -33,6 +33,21 @@ ______________________________
 
 
 
+______________________________
+
+###. extra
+
+*. Prototypo_cover*
+
+ cover design with Geomerative library
+ 
+ Method
+ 
+ generates ws cover
+ . convert text to shapes
+ . sample shapes for points
+ . adds random points throughout the page
+ . creates connections (3 orders of varying thickness according to distance range)
 
 ______________________________
 ##.:. KNOWN BUGS
