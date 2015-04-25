@@ -20,7 +20,7 @@ ______________________________
 ###. day 01
 
 
-
+.
 
 ***d01_00_library_test***
 
@@ -89,7 +89,11 @@ ______________________________
 
 ###. day 02
 
+***d02_01_class_bug***
+the bug strikes back: class definition: fields, constructor, methods
 
+***d02_02_class_bug_transp***
+drawing and saving a png with transparent background
 
 ______________________________
 
@@ -115,7 +119,12 @@ ______________________________
 
 Notes
 
-. pdf export is done "old school" and not through a PGraphics
+. pdf export in this sketch is done "old school" and not through a PGraphics
+
+______________________________
+##.:. REFERENCES
+
+.[Generative Typography](http://www.creativeapplications.net/processing/generative-typography-processing-tutorial/)
 
 ______________________________
 ##.:. KNOWN BUGS
