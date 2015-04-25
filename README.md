@@ -59,17 +59,32 @@ uses the text drawn to an offscreen PGraphics to determine what color and shape 
 
 ***d01_xx_Object_basics***
 
+object and classes basics
+
+***d01_xx_Object_behaviors***
+
+object basics + behaviors
+
 ***d01_xx_particles_advanced***
 
 particles with brightness field influence
 
 ***d01_xx_trig_bounce***
 
+some trigonometry basics for animation
+
 ***d01_xx_trig_sincurve***
+
+some trigonometry basics - sinusoid and Lissajous curve
 
 ***d01_xx_vector_basics***
 
+basic vector operations
+
 ***day01_xx_trig_adv***
+
+playing with (not so) basic trigonometry
+
 ______________________________
 
 ###. day 02
