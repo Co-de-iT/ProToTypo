@@ -51,7 +51,25 @@ motion easing - mouse wheel controls threshold value
 
 geomerative library basics - extract text as shape, extract points from shape
 
+***d01_xx_inside_outside_text***
 
+ slight modification of the example provided by AmnonP5 - [Generative Typography](http://www.creativeapplications.net/processing/generative-typography-processing-tutorial/)
+
+uses the text drawn to an offscreen PGraphics to determine what color and shape it will draw to each xy-coordinate on the main screen
+
+***d01_xx_Object_basics***
+
+***d01_xx_particles_advanced***
+
+particles with brightness field influence
+
+***d01_xx_trig_bounce***
+
+***d01_xx_trig_sincurve***
+
+***d01_xx_vector_basics***
+
+***day01_xx_trig_adv***
 ______________________________
 
 ###. day 02
