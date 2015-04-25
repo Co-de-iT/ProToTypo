@@ -118,27 +118,42 @@ ______________________________
 
 ***d03_class_pointilisme***
 
+pointilisme effect based on image sampling
+
 
 ***d03_class_pshape_img***
+
+sample an image in grayscale range and draw closest lines network
 
 
 ***d03_class_pshape_svg***
 
+sample svg file for a specific color and draw closest lines network - this sketch creates was used to create the logo above
 
 ***d03_DLA***
+
+ DLA (Diffusion Limited Aggregation) process on logo
+ 
+ *NOTE: the DLA agorithm is rough, sketchy and for sure can be implemented much better, but for the time being it works the way I want*
 
 
 ***d03_pshape_geomerative***
 
+SVG importer example - uses a custom SVG importer class based on the geomerative library
 
 ***d03_pshape_mesh***
+
+use of the mesh library by Lee Byron to generate a Voronoi pattern on a SVG file
 
 
 ***d03_pshape_physics***
 
+SVG importer + Verlet physics 2D example - uses a custom SVG importer class based on the geomerative library
+
 ______________________________
 
 ###. extra
+.
 
 ***Prototypo_cover***
 
