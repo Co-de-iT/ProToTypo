@@ -88,18 +88,53 @@ playing with (not so) basic trigonometry
 ______________________________
 
 ###. day 02
+.
 
 ***d02_01_class_bug***
+
 the bug strikes back: class definition: fields, constructor, methods
 
 ***d02_02_class_bug_transp***
+
 drawing and saving a png with transparent background
+
+***d02_03_font_PDF***
+
+font to pdf - visualize a random font and saves on request a pdf file
+
+***d02_04_1_class_bug_pdf_text***
+
+generative text using the bug class previously created - saves pdf when bugs are all 'dead'
+
+***d02_04_class_bug_transp_text***
+
+generative text using the bug class previously created - saves transparent png
+
 
 ______________________________
 
 ###. day 03
+.
+
+***d03_class_pointilisme***
 
 
+***d03_class_pshape_img***
+
+
+***d03_class_pshape_svg***
+
+
+***d03_DLA***
+
+
+***d03_pshape_geomerative***
+
+
+***d03_pshape_mesh***
+
+
+***d03_pshape_physics***
 
 ______________________________
 
