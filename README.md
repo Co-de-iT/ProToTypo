@@ -181,14 +181,18 @@ ______________________________
 In order to run these sketches you will need the following libraries:
 
 . [Toxiclibs](http://toxiclibs.org)
+
 . [Geomerative](http://www.ricardmarxer.com/geomerative/)
+
 . [Mesh by Lee Byron](http://leebyron.com/mesh/)
+
 
 ______________________________
 
 ##.:. REFERENCES
 
 .[Generative Typography](http://www.creativeapplications.net/processing/generative-typography-processing-tutorial/)
+
 .[Caligraft](http://www.caligraft.com)
 
 ______________________________
