@@ -173,6 +173,12 @@ Notes
 
 . pdf export in this sketch is done "old school" and not through a PGraphics
 
+
+***logo_Fugue***
+
+ logo Fugue style - as in the [Fugue](https://www.behance.net/gallery/24391255/Fugue) project by Stefan Sagmeister
+
+
 ______________________________
 
 
