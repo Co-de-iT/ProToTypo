@@ -18,6 +18,7 @@ PImage logo;
 
 float step;
 String text = "GATTACA";
+float segLen = 5; // segmentator length
 
 void setup()
 {
@@ -26,7 +27,7 @@ void setup()
 
   logo = loadImage("RUFA_logo_80.png");
 
-  // VERY IMPORTANT: Allways initialize the library in the setup
+  // VERY IMPORTANT: Always initialize the library in the setup
   RG.init(this); // init Geomerative library
 
   font = new RFont( "OpenSans-Light.ttf", 80, RFont.CENTER);
@@ -34,7 +35,7 @@ void setup()
 
   // set Segmentator (read: point retrieval) settings
   RCommand.setSegmentator(RCommand.UNIFORMLENGTH); // use a uniform distance between points
-  RCommand.setSegmentLength(5); // set segmentLength between points
+  RCommand.setSegmentLength(segLen); // set segmentLength between points
   // extract paths and points from the base shape using the above Segmentator settings
   tPoints = shape.getPointsInPaths();
 
@@ -59,7 +60,7 @@ void draw()
 
   translate(0, step);
   stroke(0);
-  strokeWeight(2);
+  strokeWeight(3);
   noFill();
   // draws the points extracted from the shape
   beginShape(POINTS);
@@ -72,7 +73,7 @@ void draw()
 
   translate(0, step);
   stroke(0);
-  strokeWeight(2);
+  strokeWeight(1);
   noFill();
   // draws shapes from extracted points
   for (int i=0; i<tPoints.length; i++) {

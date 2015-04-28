@@ -8,14 +8,17 @@ first sketch - several introductory stuff, the current version draws with mouse
 
 */
 
-// commento monolinea
+// single line comment - commento monolinea
 
 /*
+  multi-line
+  comment
+  -
   commento
   multilinea
 */
 
-float diam, xEl, yEl; // più variabili stesso tipo
+float diam, xEl, yEl; // several variables of the same type - più variabili stesso tipo
 
 void setup(){  // < metodo di setup - eseguito 1 volta sola
    // finestra di lavoro di 800 x 600 pixel
@@ -29,17 +32,17 @@ void setup(){  // < metodo di setup - eseguito 1 volta sola
 }
 
 void draw(){ // eseguita per sempre
-  //background(128); // la cosa che pulisce
+  //background(128); // cleans the canvas - la cosa che pulisce
   /*
-  0 < toni di grigio
+  0 < toni di grigio (black 0 <> 255 white)
   0,20 < toni di grigio, alpha (trasp 0 <> 255 opa)
   255,120,200 < R, G, B
   255,120,200, 120 < R, G, B, alpha
   */
   
   // update
-  xEl = xEl+0.1;
-  // diam = diam +0.1; // la cosa che cresce
+  // xEl = xEl+0.1; // or xEl += 0.1;
+  // diam += 0.1; // the thing that grows - la cosa che cresce
   
   // display
   /*
