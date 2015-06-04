@@ -64,19 +64,11 @@ void setup() {
   svg = new SVGImporter(this, svgFile);
   svg.centerShape(this.g, 50, 1, 1);
 
-  // creates a PShape for the logo from uniform length point subdivision
-  //pts = svg.getPtsUniformLength(3);
-  //logo = svg.getShape(pts);
-
   //
   //_____________ TEXT
   // load text and centers it in the PGraphics
   sText = new SVGImporter(this, word, font, 100);
   sText.centerShape(this.g, 50, 1, 1);
-
-  // creates a PShape for the text from uniform length point subdivision
-  // ptsT = sText.getPtsUniformLength(3);
-  // txt = sText.getShape(pts);
   
   init(isSvg, sampleLen);
 }
@@ -118,8 +110,13 @@ void init(boolean isSvg, int len) {
   spots.clear();
   if (isSvg) {
     pts = svg.getPtsUniformLength(len);
+    // creates a PShape for the logo from uniform length point subdivision
+    logo = svg.getShape(pts);
+    
   } else {
     pts = sText.getPtsUniformLength(len);
+    // creates a PShape for the text from uniform length point subdivision
+    txt = sText.getShape(pts);
   }
   count = 0;
 }
