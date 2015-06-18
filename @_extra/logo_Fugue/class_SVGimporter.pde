@@ -47,8 +47,9 @@ class SVGImporter {
   }
   
   SVGImporter(PApplet p5, String text, String font, int fSize){
-    this.font = new RFont(font, fSize);
+    this.p5 = p5;
     RG.init(p5); //initialize Geomerative library
+    this.font = new RFont(font, fSize);
     RG.ignoreStyles(ignStyle); // if true, ignores svg styles
     rShape = this.font.toShape(text);
   }

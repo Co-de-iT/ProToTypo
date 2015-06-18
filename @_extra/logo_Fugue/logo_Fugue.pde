@@ -25,7 +25,6 @@ import toxi.geom.*;
 SVGImporter svg, sText;
 
 // external libraries classes
-RPoint[][] points; // from geomerative (imported in the class_SVGimporter tab)
 Vec2D[][] pts, ptsT; // from toxi
 
 ArrayList <Spot> spots = new ArrayList<Spot>();
