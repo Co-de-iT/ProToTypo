@@ -2,7 +2,7 @@
 
 #PRO-TO-TYPO
 
-[Download sketches](https://bitbucket.org/ale2x72/prototypo/downloads)
+[Download sketches](https://github.com/ale2x72/ProToTypo/archive/master.zip)
 
 ____________________________________________________________________________________________________________________________________
 ##.:. GENERAL NOTES
