@@ -1,4 +1,4 @@
-![lines_0171.png](https://bitbucket.org/repo/RyexaR/images/3840594642-lines_0171.png)
+![cover.png](https://github.com/ale2x72/ProToTypo/blob/master/cover.png)
 
 #PRO-TO-TYPO
 
@@ -135,7 +135,7 @@ sample svg file for a specific color and draw closest lines network - this sketc
 ***d03_DLA***
 
  DLA (Diffusion Limited Aggregation) process on logo
- 
+
  *NOTE: the DLA agorithm is rough, sketchy and for sure can be implemented much better, but for the time being it works the way I want*
 
 
@@ -160,9 +160,9 @@ ______________________________
 ***Prototypo_cover***
 
  cover design with Geomerative library
- 
+
  Method
- 
+
  generates ws cover
  . convert text to shapes
  . sample shapes for points
