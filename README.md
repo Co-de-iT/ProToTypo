@@ -1,4 +1,4 @@
-![cover.png](https://github.com/Co-de-iT/ProToTypo/blob/master/cover.png)
+![cover.png](https://raw.githubusercontent.com/Co-de-iT/ProToTypo/master/cover.png)
 
 #PRO-TO-TYPO
 
