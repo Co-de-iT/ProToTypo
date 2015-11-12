@@ -1,8 +1,8 @@
-![cover.png](https://github.com/ale2x72/ProToTypo/blob/master/cover.png)
+![cover.png](https://github.com/Co-de-iT/ProToTypo/blob/master/cover.png)
 
 #PRO-TO-TYPO
 
-[Download sketches](https://github.com/ale2x72/ProToTypo/archive/master.zip)
+[Download sketches](https://github.com/Co-de-iT/ProToTypo/archive/master.zip)
 
 ____________________________________________________________________________________________________________________________________
 ##.:. GENERAL NOTES
@@ -213,4 +213,5 @@ ________________________________________________________________________________
 ##.:. FUTURE IMPLEMENTATIONS
 
 . some comments are in Italian only, English translation will be implemented over time
+. make sketches compatible with Processing 3
 . some more examples will be added in the "extra" section
