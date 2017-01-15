@@ -70,8 +70,8 @@ void setup() {
   //
   // loading logo in svg format
   logo = loadShape("logo_trim_black.svg");
-  logo.scale(2);
   logo.translate(-logo.width*.5, -logo.height*.5);
+  logo.scale(2);
 
   // loaing greyscale image
   // img = loadImage("test gradient.png"); // loads gradient test image
@@ -147,10 +147,12 @@ void setup() {
   }
   println("done.");
 
-  // disegna sull PGraphics tr
+  // disegna sulla PGraphics tr
+  tr.beginDraw();
   tr.shape(voronoi, 0, 0);
   //closestLines(tr);
   //displayPts(tr);
+  tr.endDraw();
 
   image(tr, 0, 0);
 }
@@ -158,6 +160,8 @@ void setup() {
 void draw() {
   // draw lo lasciamo solo perchè in questo modo lo sketch continua a
   // monitorare l'eventuale pressione di un tasto
+  // viene visualizzato il diagramma di Voronoi finale
+  image(tr,0,0);
 }
 
 

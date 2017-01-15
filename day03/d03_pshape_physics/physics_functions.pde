@@ -26,7 +26,7 @@ void initPhysics_text() {
       int j1 = (j+1)%parts[i].length;
       // repulsive behavior - attraction behavior with negative force
       //                                 attractor, radius,  strength,  jitter
-      physics.addBehavior(new AttractionBehavior(parts1[i][j], partRadius, -1, 0.001)); // repulsive behavior
+      physics.addBehavior(new AttractionBehavior2D(parts1[i][j], partRadius, -1, 0.001)); // repulsive behavior
       physics.addParticle(parts1[i][j]);
       // primary strings
       //                                           pA            pB           length    strength
@@ -38,7 +38,7 @@ void initPhysics_text() {
       physics.addSpring(s);
     }
   }
-  attractor = new AttractionBehavior(new VerletParticle2D(0, 0), 800, 1);
+  attractor = new AttractionBehavior2D(new VerletParticle2D(0, 0), 800, 1);
   physics.addBehavior(attractor);
 }
 
@@ -111,7 +111,7 @@ void initPhysics_OLD() {
       p = new VerletParticle2D(pos.x, pos.y);
       // repulsive behavior - attraction behavior with negative force
       //                               attractor, radius,  strength,  jitter
-      physics.addBehavior(new AttractionBehavior(p, 20, -1, 0.001)); // repulsive behavior
+      physics.addBehavior(new AttractionBehavior2D(p, 20, -1, 0.001)); // repulsive behavior
       physics.addParticle(p);
       if (j>0) { 
         // from the second particle on, search for the closest one and make a spring
@@ -124,7 +124,7 @@ void initPhysics_OLD() {
       j++;
     }
   }
-  physics.addBehavior(new AttractionBehavior(new VerletParticle2D(0, 0), 800, .01));
+  physics.addBehavior(new AttractionBehavior2D(new VerletParticle2D(0, 0), 800, .01));
 }
 
 // get closest particle from an arraylist of particles
@@ -156,7 +156,7 @@ void initPhysics_randomSprings() {
     pos = new Vec2D (random(-width*.5, width*.5), random(-height*.5, height*.5));
     if (svg.rShape.contains(pos.x, pos.y)) {
       VerletParticle2D p = new VerletParticle2D(pos.x, pos.y);
-      physics.addBehavior(new AttractionBehavior(p, 50, -5, 0.001)); // repulsive behavior
+      physics.addBehavior(new AttractionBehavior2D(p, 50, -5, 0.001)); // repulsive behavior
       physics.addParticle(p);
       j++;
     }

@@ -74,7 +74,9 @@ void generate(PGraphics pg, color col, float thres) {
   for (int i=0; i<nPoints; i++) {
     pts[i] = getPosition(col); // posizione su colore esatto - da usare con il logo svg
   }
+  pg.beginDraw();
   pg.clear();
+  pg.endDraw();
   display(pg, thres);
 }
 

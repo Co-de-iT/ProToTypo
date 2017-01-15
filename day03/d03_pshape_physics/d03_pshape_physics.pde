@@ -36,7 +36,7 @@ RPoint[][] points; // from geomerative (imported in the class_SVGimporter tab)
 Vec2D[][] pts; // from toxi
 
 VerletPhysics2D physics; // toxi physics library
-AttractionBehavior attractor; // behavior for physics
+AttractionBehavior2D attractor; // behavior for physics
 
 // Processing internal classes
 PGraphics p, pg, pdf;

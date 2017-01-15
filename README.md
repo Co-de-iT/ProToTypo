@@ -10,6 +10,7 @@ ________________________________________________________________________________
 Here's the repository with the definitions made during the Pro-To-Typo Processing workshop held by Alessio Erioli - Co-de-iT at RUFA [http://www.unirufa.it/]. There are also some extra to play with.
 The workshop was focused on generative graphic and typography with Processing
 
+2017.01.15 - sketches updated for Processing 3
 
 
 ____________________________________________________________________________________________________________________________________

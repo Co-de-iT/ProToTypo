@@ -91,7 +91,9 @@ void draw() {
   }
   
   // display phase
+  pg.beginDraw();
   pg.clear();
+  pg.endDraw();
   dlaDisplay(pg);
   image(pg,0,0);
 }

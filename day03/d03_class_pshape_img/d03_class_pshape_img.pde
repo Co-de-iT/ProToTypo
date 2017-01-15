@@ -9,7 +9,7 @@
  key map:
  
  g  regenerates points
- +,-  increase/decrease distance renage within which drawing lines
+ +,-  increase/decrease distance range within which drawing lines
  i  save transparent background PNG
  p  save PDF file
  r  save both PNG and PDF in one go
@@ -70,7 +70,9 @@ void generate(PGraphics pg, float minBri, float maxBri, float thres) {
   for (int i=0; i<nPoints; i++) {
     pts[i] = getRange(minBri, maxBri); // posizione su range di luminosità - da usare con l'immagine grayScale
   }
+  pg.beginDraw();
   pg.clear();
+  pg.endDraw();
   display(pg, thres);
 }
 

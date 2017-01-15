@@ -20,10 +20,9 @@ float is = 1.3; // image scale factor
 
 void setup() {
   img = loadImage(imgName); // load the sample image
-  
   img.resize(int(img.width*is), int(img.height*is)); //resize (if necessary)
-  
-  size(img.width, img.height); // processing window the same size of the sample image
+  size(800,600);
+  surface.setSize(img.width, img.height); // processing window the same size of the sample image
   smooth();
 
   pixBri = new float[width*height]; // array for pixel brightness
